@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecommendActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FROM YOUR RECENTS"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Deniro" by Alec Benjamin'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Sign of the Times" by Harry Styles'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Left and Right" by Charlie Puth'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Never Gonna Give You Up" by Rick Astley'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BASED ON YOUR PLAYLISTS"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Numb Little Bug" by Em Beihold'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Everybody Hurts" by R.E.M.'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Happy" by Pharrell Williams'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Lovely Day" by Bill Withers'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Tightrope" by Janelle Monáe'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECOMMENDED ARTISTS"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill Withers                VIEW PROFILE"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Janelle Monáe           VIEW PROFILE"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charlie Puth                VIEW PROFILE"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+</LinearLayout>

@@ -1,44 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="50sp"
-        android:gravity="center"
+        style="@style/CategoryStyle"
         android:background="#B6D0E2"
-        android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
-        android:text="Music" />
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Music"
+        android:onClick="openMusicList"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="50sp"
-        android:gravity="center"
+        style="@style/CategoryStyle"
         android:background="#C8A2C8"
-        android:layout_marginHorizontal="40dp"
         android:layout_marginVertical="20dp"
-        android:text="Library" />
+        android:text="Library"
+        android:onClick="openLibraryList"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="50sp"
-        android:gravity="center"
+        style="@style/CategoryStyle"
         android:background="#A4C195"
-        android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="40dp"
-        android:text="Recommend" />
-
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="Recommend"
+        android:onClick="openRecommendList"/>
 </LinearLayout>

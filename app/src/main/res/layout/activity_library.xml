@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAVORITES"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='☆ " City of Angels" by Em Beihold'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='☆ "Permission to Dance" by BTS'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='☆ "Deniro" by Alec Benjamin'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAYLISTS"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Songs (14)    ⇄  ◃◃  Ⅰ PLAY Ⅰ  ▹▹  ↻"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sad Songs (12)         ⇄  ◃◃  Ⅰ PLAY Ⅰ  ▹▹  ↻"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dancing Songs (10)  ⇄  ◃◃  Ⅰ PLAY Ⅰ  ▹▹  ↻"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOWNLOADS"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Groundhog Day" by Em Beihold'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Shake it Off" by Taylor Swift'
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARTIST SUBSCRIPTIONS"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="20dp" />
+
+    <ListView
+        android:id="@+id/artist_subscription_list"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Em Beihold                 VIEW PROFILE"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selena Gomez             VIEW PROFILE"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+</LinearLayout>
